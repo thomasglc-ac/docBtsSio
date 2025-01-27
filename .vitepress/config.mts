@@ -41,7 +41,6 @@ export default defineConfig({
               }
             ]
           },
-          { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
