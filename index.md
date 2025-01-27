@@ -1,0 +1,22 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "Bts SIO 👾"
+  tagline: Thomas Galocha
+  actions:
+    - theme: brand
+      text: Cité scolaire Frédéric Chopin
+      link: http://www.lycee-chopin.fr/
+    - theme: alt
+      text: Moodle
+      link: https://0540040a.moodle.monbureaunumerique.fr/
+
+features:
+  - title: Travaux Pratiques
+    link: /presentation/tp
+    details: Liste des travaux pratiques à réaliser
+  
+---
+
