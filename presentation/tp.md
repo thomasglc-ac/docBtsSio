@@ -1,4 +1,4 @@
-# Retrouver ici la liste des différents TP
+# Retrouvez ici la liste des différents TP
 
 
 ## PHP
