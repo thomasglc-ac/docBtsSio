@@ -6,7 +6,7 @@ export default defineConfig({
   description: "Documentation pour le bts sio",
   base: '/docBtsSio/',
   head: [
-    ['link', { rel: "icon", type: "image/png", href: "/docBtsSio/icons/alien.png"}],
+    ['link', { rel: "icon", type: "image/png", href: "/docBtsSio/icons/alien.png" }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -39,6 +39,19 @@ export default defineConfig({
                   { text: '3 - $_GET et $_POST', link: '/tp/php/3-get-post.md' },
                 ]
               }
+            ]
+          },
+        ]
+      },
+      {
+        items: [
+          {
+            text: 'Mémos',
+            collapsed: true,
+            items: [
+              { text: 'HTML', link: '/memo/html.md' },
+              { text: 'CSS', link: '/memo/css.md' },
+
             ]
           },
         ]
