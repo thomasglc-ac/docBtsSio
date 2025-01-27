@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Bts SIO 👾",
   description: "Documentation pour le bts sio",
+  base: '/docBtsSio/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
