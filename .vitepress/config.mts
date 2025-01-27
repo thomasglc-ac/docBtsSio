@@ -2,15 +2,18 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Bts SIO 👾",
+  title: "Bts SIO",
   description: "Documentation pour le bts sio",
   base: '/docBtsSio/',
+  head: [
+    ['link', { rel: "icon", type: "image/png", href: "alien.png"}],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Accueil', link: '/' },
     ],
-    logo: '👾',
+    logo: '/alien.png',
     outline: {
       label: "Sommaire"
     },
