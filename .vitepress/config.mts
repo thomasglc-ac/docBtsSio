@@ -6,14 +6,14 @@ export default defineConfig({
   description: "Documentation pour le bts sio",
   base: '/docBtsSio/',
   head: [
-    ['link', { rel: "icon", type: "image/png", href: "alien.png"}],
+    ['link', { rel: "icon", type: "image/png", href: "/docBtsSio/icons/alien.png"}],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Accueil', link: '/' },
     ],
-    logo: '/alien.png',
+    logo: '/icons/alien.png',
     outline: {
       label: "Sommaire"
     },
