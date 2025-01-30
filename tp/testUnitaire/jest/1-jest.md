@@ -1,4 +1,4 @@
-# TP : Jest
+# TP : Initiation Jest
 
 Dans ce TP nous allons dans un premier temps installer l'outil `node.js`. Cela nous permettra d'avoir accès au gestionnaire de paquet `npm`
 

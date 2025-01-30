@@ -1,4 +1,4 @@
-# Test unitaires en Javascript
+# Test unitaire en JavaScript
 
 ### Objectif
 * Comprendre le principe des tests unitaires.

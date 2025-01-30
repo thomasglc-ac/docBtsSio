@@ -1,4 +1,4 @@
-# Test unitaire en Javascript 2
+# Test unitaire en JavaScript 2
 
 ## Exercice 1 : Somme des nombres dans un tableau
 
