@@ -86,9 +86,9 @@ Votre environnement de travail est à présent prêt pour faire le TP
 
 ## Travaux pratiques
 
-Pour ce TP, l'objectif vas être de reprendre les fonctions réalisé pour les deux derniers TP sur les tests unitaires.
+Pour ce TP, l'objectif va être de reprendre les fonctions réalisées pour les deux derniers TP sur les tests unitaires.
 
-Crée un nouveau fichier `fonction.js` qui reprend l'ensemble des fonctions que vous avez crée dans les 2 derniers TP : 
+Crée un nouveau fichier `fonction.js` qui reprend l'ensemble des fonctions que vous avez créées dans les 2 derniers TP : 
 
 
     
@@ -106,5 +106,36 @@ Normalement vous devriez avoir `9 fonctions`
 * `compterOccurrences(tableau, element)`
 * `trouverMinMax(tab)`
 
-A présent créez **UN FICHIER** pour chaque fonction. Par exemple pour tester la fonction `addition(a, b)`, il faut créer le fichier : `addition.test.js`
+::: danger Attention ⚠️
 
+N'oubliez pas l'export des fonctions à la fin du fichier pour pouvoir les importer depuis vos fichiers de test : 
+
+```javascript
+module.exports = { sum, estMajeur, ... }
+```
+
+:::
+
+À présent, créez **UN FICHIER** pour chaque fonction. Par exemple, pour tester la fonction `addition(a, b)`, il faut créer le fichier : `addition.test.js`
+
+Exemple du premier test à réaliser : 
+
+``` javascript 
+const { sum } = require("./function")
+
+describe("test function sum", function () {
+    
+    test("1 + 2 = 3", function () {
+        let resultat = sum(1, 2);
+        expect(resultat).toBe(3);
+    });
+
+})
+
+```
+
+Pour lancer vos tests, vous devez exécuter la commande suivante depuis l'endroit où vous avez vos fichiers : 
+
+```bash
+npm run test
+```
