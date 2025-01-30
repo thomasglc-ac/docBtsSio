@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Bts SIO",
   description: "Documentation pour le bts sio",
-  base: '/docBtsSio/',
   head: [
     ['link', { rel: "icon", type: "image/png", href: "/docBtsSio/icons/alien.png" }],
   ],
