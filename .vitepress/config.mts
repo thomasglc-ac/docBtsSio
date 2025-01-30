@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Bts SIO",
   description: "Documentation pour le bts sio",
   head: [
-    ['link', { rel: "icon", type: "image/png", href: "/docBtsSio/icons/alien.png" }],
+    ['link', { rel: "icon", type: "image/png", href: "/icons/alien.png" }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
