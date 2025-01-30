@@ -40,11 +40,13 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'JS',
+                text: 'Tests unitaires',
                 collapsed: true,
 
                 items: [
-                  // { text: '1 - Jest', link: '/tp/js/jest/1-jest.md' },
+                  { text: '1 - Découverte', link: '/tp/testUnitaire/1-decouverte.md' },
+                  { text: '2 - Découverte', link: '/tp/testUnitaire/2-decouverte.md' },
+                  { text: '3 - Jest', link: '/tp/testUnitaire/jest/1-jest.md' },
                 ]
               }
             ]
