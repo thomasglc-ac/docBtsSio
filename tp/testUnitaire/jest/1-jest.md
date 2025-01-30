@@ -139,3 +139,7 @@ Pour lancer vos tests, vous devez exécuter la commande suivante depuis l'endroi
 ```bash
 npm run test
 ```
+
+::: tip
+Pour ouvrir une invite de commande directement depuis **Visual Studio Code**, vous pouvez utiliser le raccourci clavier `ctlr + %`
+:::

@@ -61,6 +61,7 @@ export default defineConfig({
             items: [
               { text: 'HTML', link: '/memo/html.md' },
               { text: 'CSS', link: '/memo/css.md' },
+              { text: 'JS', link: '/memo/js.md' },
 
             ]
           },
