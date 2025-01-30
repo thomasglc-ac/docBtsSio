@@ -38,6 +38,14 @@ export default defineConfig({
                   { text: '2 - Les tableaux associatifs', link: '/tp/php/2-tableaux.md' },
                   { text: '3 - $_GET et $_POST', link: '/tp/php/3-get-post.md' },
                 ]
+              },
+              {
+                text: 'JS',
+                collapsed: true,
+
+                items: [
+                  // { text: '1 - Jest', link: '/tp/js/jest/1-jest.md' },
+                ]
               }
             ]
           },
