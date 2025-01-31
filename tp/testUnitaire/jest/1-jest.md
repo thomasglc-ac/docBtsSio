@@ -31,7 +31,7 @@ Ici, faites attention à bien décocher l'installation de Chocolatey, nous n'en 
 
 ### Etape 2 : Vérification de l'installation
 
-Une fois l'installation réalisée, vous pouvez ouvrir une `invite de commande`.
+Une fois l'installation réalisée, vous pouvez ouvrir une `invite de commande` (attention à ne pas ouvrir PowerShell !).
 
 Pour vérifier que node c'est correctement installé tapez la commande suivante : 
 
