@@ -52,6 +52,11 @@ Comme pour avant, si vous avez un numéro de version qui est affiché, alors l'i
 ### Etape 3 : Installer `Jest` dans votre projet
 
 Allez dans votre dossier où vous souhaitez mettre votre TP.
+
+::: danger Attention !
+Votre dossier doit être situer sur votre disque C://
+:::
+
 Ouvrez une `invite de commande` dans ce dossier.
 
 ::: tip
@@ -74,6 +79,15 @@ L'architecture de votre dossier devrait ressembler à ça :
 ├─ 📁 node_modules
 ├─ package.json
 ├─ package-lock.json
+```
+
+Dans le fichier `package.json` copiez le code suivant : 
+``` json
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
 ```
 
 Vous pouvez créer ici votre fichier `.html` et vos fichier `.js`
