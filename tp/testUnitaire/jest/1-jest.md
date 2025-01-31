@@ -156,4 +156,9 @@ npm run test
 
 ::: tip
 Pour ouvrir une invite de commande directement depuis **Visual Studio Code**, vous pouvez utiliser le raccourci clavier `ctlr + %`
+
+Attention cependant, vous devez ouvrir une commande, et non pas PowerShell !
+
+![image](https://github.com/user-attachments/assets/b52b4d2c-7b28-4141-ad56-081ee1469775)
+
 :::
