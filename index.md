@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Bts SIO 👾"
+  name: "Bts SIO"
   tagline: Thomas Galocha
   actions:
     - theme: brand
@@ -12,12 +12,15 @@ hero:
     - theme: alt
       text: Moodle
       link: https://0540040a.moodle.monbureaunumerique.fr/
+  image:
+      src: icons/alien.png
+      alt: BTS SIO
 
 features:
-  - title: Travaux Pratiques
+  - title: 🧑‍💻 Travaux Pratiques
     link: /presentation/tp
     details: Liste des travaux pratiques à réaliser
-  - title: Les mémos
+  - title: 🧠 Les mémos
     link: /presentation/memo
     details: Aides mémoires pour les cours et les TP
   

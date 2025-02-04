@@ -23,11 +23,13 @@ export default withMermaid ({
     outline: {
       label: "Sommaire"
     },
+    search: {
+      provider: 'local'
+    },
     docFooter: {
       prev: false,
       next: false
     },
-
     sidebar: [
       {
         items: [
