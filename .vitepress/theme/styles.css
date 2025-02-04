@@ -25,4 +25,12 @@
   :root {
     --vp-home-hero-image-filter: blur(68px);
   }
+  .VPHome {
+    margin-top: 100px;
+  }
+  
+  .VPHomeFeatures{
+    margin-top: 100px;
+  }
 }
+
