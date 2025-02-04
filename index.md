@@ -17,6 +17,9 @@ features:
   - title: Travaux Pratiques
     link: /presentation/tp
     details: Liste des travaux pratiques à réaliser
+  - title: Les mémos
+    link: /presentation/memo
+    details: Aides mémoires pour les cours et les TP
   
 ---
 

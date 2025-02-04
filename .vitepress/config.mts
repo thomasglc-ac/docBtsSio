@@ -7,6 +7,13 @@ export default withMermaid ({
   head: [
     ['link', { rel: "icon", type: "image/png", href: "/icons/alien.png" }],
   ],
+  markdown: {
+    lineNumbers: true,
+    image: {
+      lazyLoading: true
+    }
+  },
+  lang: 'fr-FR',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -46,6 +53,8 @@ export default withMermaid ({
                   { text: '1 - Découverte', link: '/tp/testUnitaire/1-decouverte.md' },
                   { text: '2 - Découverte', link: '/tp/testUnitaire/2-decouverte.md' },
                   { text: '3 - Jest', link: '/tp/testUnitaire/jest/1-jest.md' },
+                  { text: '4 - Jest et le DOM', link: '/tp/testUnitaire/jest/2-jest.md' },
+                  { text: '5 - Bonus', link: '/tp/testUnitaire/jest/3-bonus.md' },
                 ]
               }
             ]
