@@ -1,3 +1,4 @@
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
@@ -11,7 +12,15 @@ export default withMermaid ({
     lineNumbers: true,
     image: {
       lazyLoading: true
-    }
+    },
+    config(md) {
+      md.use(groupIconMdPlugin)
+    },
+  },
+  vite: {
+    plugins: [
+      groupIconVitePlugin()
+    ],
   },
   lang: 'fr-FR',
   themeConfig: {
