@@ -120,7 +120,15 @@ Vérifier que l'éxecution du code écrit dans `changeTitle.js` permet d'ajouter
 - ✅ Tous les `<h1>` présents dans la page ont une background color : vérifiez que chaque élément `<h1>` a bien la propriété CSS background-color définie après l'exécution du script.
 - ✅ Le script ne doit affecter que les balises `<h1>` : vérifiez que d’autres balises comme `<h2>`, `<p>`, etc..., ne sont pas modifiées.
 
+::: tip
+Si vous utilisez plusieurs fois la fonction `require('');` dans vos tests, il faut intégrer le code suivant qui va permettre de remettre à zéro l'intégration du fichier js
+```javascript
+beforeEach(() => {
+  jest.resetModules();
+});
+```
 
+:::
 
 ## Exercice 2 : Vérfication du bouton "Afficher / cacher"
 ### Objectif : 
