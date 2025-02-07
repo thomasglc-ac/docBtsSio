@@ -83,6 +83,10 @@ changeColorBtn.addEventListener("click", () => {
 ::: tip
 Créez-vous un nouveau dossier dans lequel vous allez copier les différents fichiers. 
 Cela vous permettra d'installer Jest au sein du projet.
+N'oubliez pas d'initialiser `Jest` dans le dossier
+```bash
+npm install jest
+```
 :::
 
 ::: danger Attention
@@ -97,7 +101,7 @@ Ensuite, vous devez effectuer une petite modification dans votre fichier `packag
 {
     "scripts": {
         "test": "jest --env=jsdom"
-    },
+    }
 }
 ```
 :::
