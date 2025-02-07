@@ -30,7 +30,7 @@ Pour ce TP nous allons nous baser sur les fichiers suivants :
 
 ```
 
-```js [changeTitles.js] 
+```js [changeTitle.js] 
 const titles = document.querySelectorAll('h1');
 for(let i = 0; i < titles.length; i++){
     titles[i].style.backgroundColor = "purple";
@@ -79,6 +79,10 @@ changeColorBtn.addEventListener("click", () => {
 
 ```
 :::
+
+Votre page doit ressembler à l'image ci-dessous : 
+![image](https://github.com/user-attachments/assets/bb21398a-2fad-4775-810b-806947543891)
+
 
 ::: tip
 Créez-vous un nouveau dossier dans lequel vous allez copier les différents fichiers. 
