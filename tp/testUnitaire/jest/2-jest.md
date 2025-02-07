@@ -108,7 +108,7 @@ Ensuite, vous devez effectuer une petite modification dans votre fichier `packag
 
 ## Exercice 1 : Vérification du code `changeTitle.js`
 ### Objectif : 
-Vérifier que l'éxecution du code écrit dans `changeTitle.js` permet d'ajouter le backgroud color à toutes les balises `<h1>` présente dans la page html.
+Vérifier que l'éxecution du code écrit dans `changeTitle.js` permet d'ajouter le background color à toutes les balises `<h1>` présente dans la page html.
 
 ### Cas à tester :
 - ✅ Vérifier que la balise `<h1>` n'est pas modifiée si le script js n'est pas exécuté. 
